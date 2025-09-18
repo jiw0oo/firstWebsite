@@ -23,12 +23,12 @@ myImage.addEventListener("click", () => {
     //gets image from the source first
     const mySrc = myImage.getAttribute("src");
     //then if the source is mtchcmp.jpeg, the image on the site right now
-    if (mySrc === "test-images/mtchcmp.jpeg"){
+    if (mySrc === "mtchcmp.jpeg"){
         //change it to the image you desire
-        myImage.setAttribute("src", "test-images/bks.jpeg");
+        myImage.setAttribute("src", "bks.jpeg");
         //just leave the image 
     } else{
-        myImage.setAttribute("src", "test-images/mtchcmp.jpeg");
+        myImage.setAttribute("src", "mtchcmp.jpeg");
     }
 });
 
