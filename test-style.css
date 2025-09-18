@@ -1,0 +1,53 @@
+html{
+  font-size: 10px;
+  background-color: lavender;
+  font-family:'Times New Roman', Times, serif
+
+}
+body{
+  width: 700px;
+  margin: 0 auto;
+  background-color:#fbffdecb;
+  padding: 0 20px 20px 20px;
+  border: 1px solid black;
+}
+img{
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 100%;
+
+}
+
+p, li{
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.7px;
+}
+
+
+h1{
+  margin: 0;
+  padding: 20px 0;
+  color:#4e6fffcb;
+  text-shadow: 2px 2px 0.5px rgb(135, 192, 249);
+  font-size: 50px;
+  text-align: center;
+}
+h2{
+  color: rgba(79, 144, 25, 0.672);
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
+a{
+  font-size: 20px;
+  color: gray;
+
+}
+
